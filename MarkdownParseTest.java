@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.*;
 
 import org.junit.*;
 
@@ -13,7 +12,7 @@ public class MarkdownParseTest {
     public void addition() {
         assertEquals(2, 1 + 1);
     }
-    /** 
+
     @Test
     public void testTestFile() throws IOException{
         String fileName = Files.readString(Path.of("MarkdownParseTest.java"));
@@ -28,7 +27,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest2File() throws IOException{
-        String fileName = Files.readString(Path.of("test-file2.md"));
+        String fileName = Files.readString(Path.of("/Users/aditijain/Documents/GitHub/markdown-parse-2/test-file2.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -42,7 +41,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest3File() throws IOException{
-        String fileName = Files.readString(Path.of("test-file3.md"));
+        String fileName = Files.readString(Path.of("/Users/aditijain/Documents/GitHub/markdown-parse-2/test-file3.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -54,7 +53,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest4File() throws IOException{
-        String fileName = Files.readString(Path.of("test-file4.md"));
+        String fileName = Files.readString(Path.of("/Users/aditijain/Documents/GitHub/markdown-parse-2/test-file4.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -66,7 +65,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest5File() throws IOException{
-        String fileName = Files.readString(Path.of("test-file5.md"));
+        String fileName = Files.readString(Path.of("/Users/aditijain/Documents/GitHub/markdown-parse-2/test-file5.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -78,7 +77,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest6File() throws IOException{
-        String fileName = Files.readString(Path.of("test-file6.md"));
+        String fileName = Files.readString(Path.of("/Users/aditijain/Documents/GitHub/markdown-parse-2/test-file6.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -90,7 +89,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest7File() throws IOException{
-        String fileName = Files.readString(Path.of("test-file7.md"));
+        String fileName = Files.readString(Path.of("/Users/aditijain/Documents/GitHub/markdown-parse-2/test-file7.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -102,7 +101,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest8File() throws IOException{
-        String fileName = Files.readString(Path.of("test-file8.md"));
+        String fileName = Files.readString(Path.of("/Users/aditijain/Documents/GitHub/markdown-parse-2/test-file8.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -111,6 +110,6 @@ public class MarkdownParseTest {
 
         assertEquals(expectedLinks, listOfLinks);
     }
-    */
+
 }
 
